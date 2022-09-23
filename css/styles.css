@@ -67,14 +67,18 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*---------------------------------------------------------------- HEADER -------------------------------------------------- */
 
 .top {
   width: 1600px;
-  height: 80px;
   margin: 0 auto;
   background-color: var(--primary-white-color);
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -85,8 +89,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .logo span {
   color: var(--primary-black-color);
@@ -105,8 +107,6 @@ body {
 .header-list {
   display: flex;
   gap: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .header-list .link {
@@ -115,6 +115,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-connect {
@@ -127,15 +133,13 @@ body {
   color: var(--accent-color);
 }
 
-/* .header-list .link .current {
+.top .current {
   color: var(--accent-color);
-} */
+}
 
 .contacts-list {
   display: flex;
   gap: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .contacts-list .link {
@@ -170,6 +174,7 @@ body {
 
 .hero {
   background-color: var(--bg-footer-color);
+  width: 1600px;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -217,30 +222,31 @@ body {
 
 .features {
   width: 1600px;
-  height: 98px;
   margin: 0 auto;
 }
 
 .features-bgc {
   background: var(--bgc);
   width: 1600px;
-  height: 600px;
 }
 
 .features-list {
   display: flex;
   gap: 30px;
-  margin-left: 215px;
+}
+
+.features-title {
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 
 .title {
-  margin-top: 94px;
 }
 
 .text {
   max-width: 270px;
   max-height: 72px;
-  margin-top: 10px;
+  letter-spacing: 0.03em;
 }
 
 .features-list .title {
@@ -249,6 +255,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .features-list .text {
@@ -264,21 +271,17 @@ body {
 .project {
   background: var(--bgc);
   width: 1600px;
-  /* height: 600px; */
   margin: 0 auto;
 }
 
 .project-title {
-  margin-top: 94px;
-  padding-top: 118px;
-  padding-bottom: 50px;
-  margin-left: 402px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .project-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 188px;
 }
 
 .project-item {
@@ -289,6 +292,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 /*-------------------------------------------------------------- END PROJECT ---------------------------------------------------*/
@@ -302,23 +306,23 @@ body {
 }
 
 .empl-title {
-  padding-top: 94px;
-  padding-left: 453px;
   margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .subtitle-empl {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .empl-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .empl-list .text {
@@ -328,19 +332,18 @@ body {
 }
 
 .empl-img {
-  width: calc((100% - 90px) / 4);
+  padding-bottom: 30px;
+  height: auto;
+  max-width: 100%;
 }
 
 .empl-text {
   text-align: center;
-  margin-top: 10px;
+  letter-spacing: 0.03em;
+  padding-bottom: 30px;
 }
 
 .bgc {
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1632px;
   background: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -354,12 +357,13 @@ body {
 .footer {
   background-color: var(--bg-footer-color);
   width: 1600px;
-  height: 252px;
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logotype {
-  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .logo-footer .studio {
@@ -382,7 +386,6 @@ body {
 }
 
 .address-list {
-  margin-top: 20px;
 }
 
 address .link {
@@ -412,20 +415,23 @@ address .link:focus {
   letter-spacing: 0.03em;
 }
 
+.address-link {
+  margin-bottom: 9px;
+}
+
 .footer-mail {
-  margin-top: 9px;
   margin-bottom: 9px;
 }
 
 .footer-tel {
-  padding-bottom: 60px;
+
 }
 
 /*-------------------------------------------------------------- END FOOTER -----------------------------------------------------*/
 
 /*-------------------------------------------------------------- PORTFOLIO ------------------------------------------------------*/
 
-.main-hero{
+.main-hero {
   background-color: var(--bgc);
   width: 1600px;
   margin: 0 auto;
