@@ -170,8 +170,6 @@ body {
 
 .hero {
   background-color: var(--bg-footer-color);
-  width: 1600px;
-  height: 600px;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
