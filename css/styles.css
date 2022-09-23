@@ -173,6 +173,8 @@ body {
   width: 1600px;
   height: 600px;
   margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -186,7 +188,6 @@ body {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .modal-button {
