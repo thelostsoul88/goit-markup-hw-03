@@ -227,11 +227,11 @@ body {
 
 /*---------------------------------------------------------------- FEATURES -----------------------------------------------------*/
 
-.features{
+.features {
   margin: 0 auto;
 }
 
-.features-section{
+.features-section {
   padding-top: 94px;
 }
 
@@ -278,6 +278,10 @@ body {
 
 .project {
   /* background: var(--bgc); */
+}
+
+.project-section {
+  padding-bottom: 94px;
 }
 
 .project-title {
