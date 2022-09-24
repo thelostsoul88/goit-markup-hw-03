@@ -89,6 +89,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo span {
   color: var(--primary-black-color);
@@ -140,6 +142,11 @@ body {
 .contacts-list {
   display: flex;
   gap: 50px;
+}
+
+.nav-contacts {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-list .link {
@@ -220,8 +227,12 @@ body {
 
 /*---------------------------------------------------------------- FEATURES -----------------------------------------------------*/
 
-.features {
+.features{
   margin: 0 auto;
+}
+
+.features-section{
+  padding-top: 94px;
 }
 
 .features-bgc {
@@ -267,8 +278,6 @@ body {
 
 .project {
   /* background: var(--bgc); */
-  width: 1600px;
-  margin: 0 auto;
 }
 
 .project-title {
@@ -423,8 +432,8 @@ address .link:focus {
 
 .main-hero {
   /* background-color: var(--bgc); */
-  width: 1600px;
-  margin: 0 auto;
+  /* width: 1600px; */
+  /* margin: 0 auto; */
 }
 
 .mdl-button-list {
@@ -480,6 +489,10 @@ address .link:focus {
   gap: 30px;
 }
 
+.portfolio-item {
+  flex-basis: calc(100% / 3 - 30px);
+}
+
 .portfolio-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -494,7 +507,6 @@ address .link:focus {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
 }
 
 .portfolio-bgc {
