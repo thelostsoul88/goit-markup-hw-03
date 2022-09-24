@@ -231,15 +231,6 @@ body {
   margin: 0 auto;
 }
 
-.features-section {
-  padding-top: 94px;
-}
-
-.features-bgc {
-  /* background: var(--bgc); */
-  /* width: 1600px; */
-}
-
 .features-list {
   display: flex;
   flex-wrap: wrap;
