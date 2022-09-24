@@ -172,7 +172,6 @@ body {
   margin: -1px;
 }
 
-
 .hero {
   background-color: var(--bg-footer-color);
   /* width: 1600px; */
@@ -227,7 +226,7 @@ body {
 
 .features-bgc {
   /* background: var(--bgc); */
-  width: 1600px;
+  /* width: 1600px; */
 }
 
 .features-list {
@@ -300,7 +299,7 @@ body {
 .empl {
   background-color: var(--bg-empl);
   /* width: 1600px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .empl-title {
@@ -355,7 +354,7 @@ body {
 .footer {
   background-color: var(--bg-footer-color);
   /* width: 1600px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -382,9 +381,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.address-list {
 }
 
 address .link {
