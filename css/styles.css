@@ -267,10 +267,6 @@ body {
 
 /*--------------------------------------------------------------- PROJECT -------------------------------------------------------*/
 
-.project {
-  /* background: var(--bgc); */
-}
-
 .project-section {
   padding-bottom: 94px;
 }
@@ -425,12 +421,6 @@ address .link:focus {
 
 /*-------------------------------------------------------------- PORTFOLIO ------------------------------------------------------*/
 
-.main-hero {
-  /* background-color: var(--bgc); */
-  /* width: 1600px; */
-  /* margin: 0 auto; */
-}
-
 .mdl-button-list {
   background-color: var(--button-bg-color);
   font-weight: 500;
@@ -505,11 +495,10 @@ address .link:focus {
 }
 
 .portfolio-bgc {
-  box-sizing: border-box;
-  width: 370px;
   background-color: var(--primary-white-color);
   border: 1px solid #eeeeee;
   padding: 20px 24px;
+  border-top: none;
 }
 
 /*------------------------------------------------------------ END PORTFOLIO ------------------------------------------------------*/
